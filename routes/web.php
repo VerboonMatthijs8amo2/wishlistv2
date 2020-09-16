@@ -21,18 +21,18 @@ Route::get('/', function () {
 //    return view('admin');
 //});
 
-Route::get('/wishlist', 'wishListController@index');
-Route::get('/wishlist/create', 'wishListController@create');
-Route::post('/wishlist/','wishListController@store');
+Route::get('/wishlist', 'WishlistController@index');
+Route::get('/wishlist/create', 'WishlistController@create');
+Route::post('/wishlist/','WishlistController@store');
 
-Route::get('/wishlist/{itemid}', 'wishListController@show');
+Route::get('/wishlist/{itemid}', 'WishlistController@show');
 
-Route::get('/wishlist/{itemid}/edit', 'wishListController@edit');
+Route::get('/wishlist/{itemid}/edit', 'WishlistController@edit');
 
-Route::patch('/wishlist/{itemid}', 'wishListController@update');
-Route::delete('/wishlist/{itemid}', 'wishListController@delete');
+Route::patch('/wishlist/{itemid}', 'WishlistController@update');
+Route::delete('/wishlist/{itemid}', 'WishlistController@delete');
 
-Route::get('/admin', 'wishListController@index1');
+Route::get('/admin', 'WishlistController@index1');
 
 
 

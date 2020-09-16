@@ -18,6 +18,7 @@ class CreateListTable extends Migration
             $table->string('name');
             $table->string('description');
             $table->string('price');
+            $table->string('images');
             $table->string('storeurl');
             $table->timestamps();
         });
