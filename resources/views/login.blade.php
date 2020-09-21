@@ -4,7 +4,7 @@
     <div class="columns box is-centered is-fullwidth ">
         <div class="column is-half">
             @if(isset(Auth::user()->email))
-                <script>window.location = "/login/succeslogin" </script>
+                <script>window.location = "/admin" </script>
             @endif
             @if ($message = Session::get('error'))
                 <strong>{{ $message }}</strong>
