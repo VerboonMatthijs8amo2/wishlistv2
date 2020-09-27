@@ -10,11 +10,13 @@ use Validator;
 use Auth;
 class UserController extends Controller
 {
-    function index(){
+    function index()
+    {
         return view('login');
     }
 
-    function checklogin(Request $request){
+    function checklogin(Request $request)
+    {
         $this->validate($request, [
             'email' => 'required|email',
             'password' => 'required|alphaNum|min:3'
@@ -24,26 +26,40 @@ class UserController extends Controller
             'password' => $request->get('password'),
         );
 
-        if(Auth::attempt($user_data)){
+        if (Auth::attempt($user_data)) {
             return redirect('admin');
-        }else{
+        } else {
             return back()->with('error', 'wrong login details');
         }
     }
 
-    function logout(){
+    function logout()
+    {
         Auth::logout();
         return redirect('/');
     }
-    function store(request $request){
+
+    function store(request $request)
+    {
         $username = $request->input('username');
         $password = $request->input('password');
         $hashed = Hash::make($password);
         $email = $request->input('email');
-        DB::insert('insert into users (name,password,email) VALUES(?,?,?)', [$username,$hashed,$email]);
-        if($request->method() == 'POST'){
+        DB::insert('insert into users (name,password,email, user_role) VALUES(?,?,?,2)', [$username, $hashed, $email]);
+        if ($request->method() == 'POST') {
             return redirect('login');
         }
+    }
 
+    function storeadmin(request $request)
+    {
+        $username = $request->input('username');
+        $password = $request->input('password');
+        $hashed = Hash::make($password);
+        $email = $request->input('email');
+        DB::insert('insert into users (name,password,email, user_role) VALUES(?,?,?,1)', [$username, $hashed, $email]);
+        if ($request->method() == 'POST') {
+            return redirect('login');
+        }
     }
 }

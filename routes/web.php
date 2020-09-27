@@ -32,7 +32,7 @@ Route::get('/wishlist/{itemid}/edit', 'WishlistController@edit');
 Route::patch('/wishlist/{itemid}', 'WishlistController@update');
 Route::delete('/wishlist/{itemid}', 'WishlistController@delete');
 
-Route::get('/admin', 'WishlistController@index1');
+Route::get('/admin', 'WishlistController@admin');
 
 
 
@@ -42,3 +42,6 @@ Route::get('login/logout', 'UserController@logout');
 
 Route::view('/register', 'register');
 Route::post('/register/store', 'UserController@store');
+
+Route::view('admin/register', 'registeradmin');
+Route::post('admin/register/storeadmin', 'UserController@storeadmin');

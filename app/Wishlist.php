@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Wishlist extends Model
 {
     protected $fillable = [
-        'name', 'description', 'price', 'storeurl', 'image'
+        'gebruikersnaam', 'name', 'description', 'price', 'storeurl', 'image'
     ];
 
 

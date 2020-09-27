@@ -28,6 +28,7 @@
             @error('storeurl') <p>{{ $message }}</p> @enderror
 
         </div>
+
         @csrf
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>

@@ -2,12 +2,20 @@
 
 @section('content')
     <p>add new item</p>
+    <p><b>vul bij gebruikersnaam echt je eigen gebruikersnaam in anders kan het fout gaan</b></p>
     <form action="/wishlist" method="post" enctype="multipart/form-data">
+        <div class="form-group">
+            <label for="gebruikersnaam">gebruikersnaam</label>
+            <input type="text" name="gebruikersnaam" class="form-control">
+            @error('gebruikersnaam') <p>{{ $message }}</p> @enderror
+        </div>
+
         <div class="form-group">
             <label for="name">name</label>
             <input type="text" name="name" class="form-control">
             @error('name') <p>{{ $message }}</p> @enderror
         </div>
+
         <div class="form-group">
             <label for="description">description</label>
             <input type="text" name="description" class="form-control">

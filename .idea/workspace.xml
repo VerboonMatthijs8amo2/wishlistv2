@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1861353f-5ef3-471e-a604-6c846a517489" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1861353f-5ef3-471e-a604-6c846a517489" name="Default Changelist" comment="user roles zo goed als gemaakt">
+      <change afterPath="$PROJECT_DIR$/public/images/1001877309.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1168921131.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/154765448.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/165580185.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1793443860.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1838949449.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/325395324.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/475760358.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/61867209.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/848371074.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/859770128.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/965887333.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/978959674.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/registeradmin.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WishlistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WishlistController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Wishlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Wishlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_09_084026_create_list_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_09_084026_create_list_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/validation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/newitem.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newitem.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/register.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/wishlist.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wishlist.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
@@ -123,11 +139,16 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1hEMmXWjilj9eA10kWCWryBnyzu" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -166,7 +187,32 @@
       <workItem from="1600262115651" duration="22000" />
       <workItem from="1600265170748" duration="8000" />
       <workItem from="1600265696211" duration="202000" />
+      <workItem from="1600272186563" duration="457000" />
+      <workItem from="1600673939862" duration="1460000" />
+      <workItem from="1601222366029" duration="8214000" />
     </task>
+    <task id="LOCAL-00001" summary="foto upload">
+      <created>1600272350439</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600272350439</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fotos">
+      <created>1600272389787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600272389787</updated>
+    </task>
+    <task id="LOCAL-00003" summary="redirect aangepast">
+      <created>1600674151655</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1600674151655</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,5 +230,13 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="foto upload" />
+    <MESSAGE value="fotos" />
+    <MESSAGE value="redirect aangepast" />
+    <MESSAGE value="user roles zo goed als gemaakt" />
+    <option name="LAST_COMMIT_MESSAGE" value="user roles zo goed als gemaakt" />
   </component>
 </project>
