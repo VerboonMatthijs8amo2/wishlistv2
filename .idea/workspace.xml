@@ -1,33 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1861353f-5ef3-471e-a604-6c846a517489" name="Default Changelist" comment="user roles zo goed als gemaakt">
-      <change afterPath="$PROJECT_DIR$/public/images/1001877309.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1168921131.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/154765448.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/165580185.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1793443860.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/1838949449.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/325395324.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/475760358.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/61867209.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/848371074.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/859770128.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/965887333.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/images/978959674.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/registeradmin.blade.php" afterDir="false" />
+    <list default="true" id="1861353f-5ef3-471e-a604-6c846a517489" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/1034368688.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1071293226.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1585703050.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1680698303.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1756267166.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/465239868.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/661180716.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/788947502.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WishlistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WishlistController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Wishlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Wishlist.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/migrations/2020_09_09_084026_create_list_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_09_09_084026_create_list_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/admin.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/edit.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/edit.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/newitem.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/newitem.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/wishlist.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/wishlist.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -189,7 +177,8 @@
       <workItem from="1600265696211" duration="202000" />
       <workItem from="1600272186563" duration="457000" />
       <workItem from="1600673939862" duration="1460000" />
-      <workItem from="1601222366029" duration="8214000" />
+      <workItem from="1601222366029" duration="8251000" />
+      <workItem from="1601275420497" duration="2240000" />
     </task>
     <task id="LOCAL-00001" summary="foto upload">
       <created>1600272350439</created>
@@ -212,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600674151655</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="user roles zo goed als gemaakt">
+      <created>1601230596256</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1601230596256</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

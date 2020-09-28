@@ -15,11 +15,11 @@ class CreateListTable extends Migration
     {
         Schema::create('wishlists', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('gebruikersnaam');
             $table->string('name');
             $table->string('description');
             $table->string('price');
             $table->string('image');
+            $table->integer('user_id');
             $table->string('storeurl');
             $table->timestamps();
         });

@@ -18,7 +18,7 @@ class WishlistController extends Controller
     public function store(Request $request)
     {
         $request->validate([
-            'gebruikersnaam' => 'required',
+
             'name' => 'required',
             'description' => 'required',
             'price' => 'required',
@@ -31,13 +31,12 @@ class WishlistController extends Controller
         $new_name = rand() . '.' . $image->getClientOriginalExtension();
         $image->move(public_path('images'), $new_name);
         $form_data = array(
-            'gebruikersnaam' =>   $request->gebruikersnaam,
             'name'       =>   $request->name,
             'description' =>   $request->description,
             'price'        =>   $request->price,
             'storeurl'        =>   $request->storeurl,
-            'image'            =>   $new_name
-
+            'image'            =>   $new_name,
+            'user_id' =>     Auth()->user()->id
         );
 
         \App\Wishlist::create($form_data);
